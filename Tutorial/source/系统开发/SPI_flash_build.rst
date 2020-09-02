@@ -283,7 +283,7 @@ Zero有一个usb下载模式称为fel模式，进入fel模式有下面几种方�
     （ ``dd if=fel-sdboot.sunxi of=/dev/mmcblk0 bs=1024 seek=8`` ），
     那么插入该TF卡启动会进入fel模式；
 3. 上电时SPI_MISO拉低到地
-    该引脚为boot引脚，上电时出于低电平即会进入fel下载模式。
+    该引脚为boot引脚，上电时处于低电平即会进入fel下载模式。
 
 sunxi-fel的操作
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
